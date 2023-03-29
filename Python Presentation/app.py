@@ -7,7 +7,7 @@ import pickle
 
 # Importing the pickle file
 with open(
-    r"C:\Users\harsh\College\Python-Assignments\Python Presentation\my_best_pipeline.pkl",
+    r"C:\Users\harsh\College\Python-Assignments\Python Presentation\gnbmodel.pkl",
     "rb",
 ) as f:
     model = pickle.load(f)
